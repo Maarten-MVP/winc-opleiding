@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<head>
+    <title>Contact</title>
+</head>
+
+<body>
+    <header class="header-style">
+        <h1>Hello World</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Recipes.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form name="contact" method="POST" data-netlify="true">
+            <label for="iName">Name</label><br>
+            <input type="name" id="iName" name="Name"><br>
+            <label for="iEmail">Email</label><br>
+            <input type="email" id="iEmail" name="Email"><br>
+            <label for="iTel">Telephone</label><br>
+            <input type="tel" id="iTel" name="Telephone"><br>
+            <label for="iRadio">Date of birth</label><br>
+            <input type="date" id="iDate" name="BirthDate"><br>
+            <label for="Gender">Gender</label><br>
+            <input type="radio" id="iMan" name="Gender" value="Gender">
+            <label for="iMan">Man</label><br>
+            <input type="radio" id="iFemale" name="Gender" value="Gender">
+            <label for="iFemale">Female</label><br>
+            <label for="FavoriteCuisine">Favorite cuisine</label><br>
+            
+            <input type="checkbox" id="iFrench" name="FavoriteCuisine">
+            <label for="iFrench">French</label>
+            
+            <input type="checkbox" id="iItalien" name="FavoriteCuisine">
+            <label for="iItalien">Italien</label>
+            
+            <input type="checkbox" id="iSpanish" name="FavoriteCuisine">
+            <label for="iSpanish">Spanish</label>
+            
+            <input type="checkbox" id="iArabic" name="FavoriteCuisine">
+            <label for="iArabic">Arabic</label><br>
+            
+            <label for="iFavoriteApron">Favorite apron color</label>
+            <input type="color" id="iFavoriteApron" name="FavoriteApron"><br>
+            <label for="iBio">Bio</label><br>
+            <input type="text" name="Bio" id="iBio"><br>
+            <label for="iRecipe">Upload your latest recipe</label><br>
+            <input type="file" name="iRecipe" id="Recipe"><br>
+            <label for="iWebsite">URL to recipe website</label><br>
+            <input type="url" name="Website" id="iWebsite"><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit"><br>
+        </form>
+    </main>
+</body>
