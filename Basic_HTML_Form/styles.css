@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    margin-left: 15px;
+}
+main{
+    color:rgb(53, 53, 53);
+    background-color: lightyellow;
+    padding: 15px 15px 15px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: khaki solid 10px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;   
+}
+.header-style{
+    background-color: grey;
+    color:honeydew;
+    padding: 15px 15px 15px 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    border: khaki solid 10px;
+    margin: 20px
+}
+.header-style ul{
+    list-style-type: none;
+    margin: 20px 0px;
+    padding: 0px;
+}
+.header-style li{
+    display: inline;
+}
+.header-style li a{
+    width: 100px;
+    color: honeydew;
+    font-size: 20px;
+    text-decoration: none;
+    border: solid;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+.header-style li a:hover{
+    color: blueviolet;
+    background-color: honeydew;
+}
+.header-style li a.active{
+    color: blueviolet;
+    background-color: honeydew;
+}
+footer{
+    background-color: grey;
+    color:honeydew;
+    height: 60px;
+    padding: 15px 15px 15px 15px;
+    margin: 20px;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Media Queries */
+
+@media (min-width: 1024px) {
+    main{    
+        background-color:blueviolet;
+        color: cornsilk;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+}
