@@ -1,0 +1,26 @@
+/* Variables */
+
+$backgroundColor2: #686de0;
+$subBackgroundColor: rgb(50, 46, 63);
+$textColor: #353535;
+$shadowColor: #8d8b8b;
+$heightSocials: 40px;
+ 
+
+$pageWidth: 400px;
+$paddingBody: 15px;
+
+/* Mixins */
+
+@mixin flexCenter() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+@mixin flexCenterHorizontal() {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
