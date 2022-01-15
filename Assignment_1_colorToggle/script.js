@@ -45,3 +45,23 @@ greenButton.addEventListener('click', function () {
     nav.classList.remove('active')
 });
 
+let pressedKey = 
+
+window.addEventListener('keydown', function(event) {
+
+    switch(event.code) {
+        case "Digit1": bodyElement.style.backgroundColor = "lightgray";
+        break;
+        case "Digit2": bodyElement.style.backgroundColor = "red";
+        break;
+        case "Digit3": bodyElement.style.backgroundColor = "orange";
+        break;
+        case "Digit4": bodyElement.style.backgroundColor = "purple";
+        break;
+        case "Digit5": bodyElement.style.backgroundColor = "green";
+        break;
+    }
+
+});
+
+
