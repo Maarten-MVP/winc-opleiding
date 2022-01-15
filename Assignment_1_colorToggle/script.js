@@ -45,8 +45,6 @@ greenButton.addEventListener('click', function () {
     nav.classList.remove('active')
 });
 
-let pressedKey = 
-
 window.addEventListener('keydown', function(event) {
 
     switch(event.code) {
